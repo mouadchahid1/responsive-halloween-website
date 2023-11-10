@@ -19,36 +19,69 @@
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
         <nav class="nav container">
-         <a href="" class="nav__logo">Halloween</a> 7
+         <a href="#" class="nav__logo">Halloween</a> 
          <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                <li class="nav__item">
-                  <a href="" class="nav__link"></a>
+                  <a href="#home" class="nav__link">Home</a>
                </li>
                <li class="nav__item">
-                  <a href="" class="nav__link"></a>
+                  <a href="#" class="nav__link">About Us</a>
                </li>
                <li class="nav__item">
-                  <a href="" class="nav__link"></a>
+                  <a href="#" class="nav__link">Portfolio</a>
                </li>
                <li class="nav__item">
-                  <a href="" class="nav__link"></a>
+                  <a href="#" class="nav__link">Contact Us</a>
                </li>
-            </ul>
-         </div>
+            </ul> 
+            <!-- close Button  --> 
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-fill"></i>
+            </div>
+         </div> 
+             <div class="nav__toogle" id="nav-toogle">
+               <i class="ri-apps-2-line"></i>
+             </div>
         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
-         <section class="home">
+         <section class="home" id="home">
+            <div class="home__container">
+               <img src="assets/img/home-point.png" alt="image" class="home__points">
+               <img src="assets/img/home-shadow.png" alt="image" class="home__shadow">
+               <img src="assets/img/home-moon.png" alt="image" class="home__moon">
+               <img src="assets/img/home-trees.png" alt="image" class="home__tree">
+               <img src="assets/img/home-pumpkin.png" alt="image" class="home__pumpkin">
+               <img src="assets/img/home-stones.png" alt="image" class="home__stone">
+               <img src="assets/img/home-grass.png" alt="image" class="home__grass"> 
+               <div class="home__titles">
+                  <h2 class="home__subtitle">TRICK OR TREAT</h2> 
+                  <h1 class="home__title">HALLOWEEN</h1>
+               </div> 
+            </div>  
+            <div class="home__data">
+               <p class="home__description">
+                  Halloween is celebrated every October 31 at night, 
+                  walk through the city with your friends and enjoy 
+                  trick or treating, spend a terrifying night under 
+                  the full moon.
+               </p> 
+               <a href="" class="home__button"> 
+                  <img src="assets/img/button.svg" alt="image">
+                  <span>CLICK HERE</span>
+               </a>
+            </div>
+             
 
          </section>
       </main>
 
       <!--=============== GSAP ===============-->
-      <script src=""></script>
+      <script src="assets/js/gsap.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
